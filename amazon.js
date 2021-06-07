@@ -55,7 +55,7 @@ function cartBtn()
                 document.getElementsByClassName("product-out-of-stock")[0].remove();
                 var btn = document.createElement("button");
                 btn.setAttribute("class","btn-shopping-cart btn-shopping-neutral use-ajax");
-                btn.setAttribute("href","/gp/product/handle-buy-box/ref=dp_start-bbf_1_glance");
+                btn.setAttribute("href", "/en/direct-buy/add-to-cart/5358857600");
                 btn.setAttribute("style", "color: #353DD4 !important;background-color: #599EE3 !important;border: 2px solid #353DD4 !important;");
                 btn.innerHTML = "Electratech | Cart";
                 document.getElementsByClassName("product-page-description")[0].appendChild(button);
