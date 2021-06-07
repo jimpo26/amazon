@@ -65,3 +65,9 @@ function cartBtn()
     Drupal.ajax.bindAjaxLinks(document);
     return item;
 }
+
+if (window.location.href.includes("direct-buy")) {
+    if (appendAddToCartButton() != null) {
+        document.getElementsByClassName("btn-shopping-cart btn-shopping-neutral use-ajax")[0].click();
+    }
+}
