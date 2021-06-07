@@ -67,7 +67,7 @@ function cartBtn()
 }
 
 if (window.location.href.includes("direct-buy")) {
-    if (appendAddToCartButton() != null) {
+    if (cartBtn() != null) {
         document.getElementsByClassName("btn-shopping-cart btn-shopping-neutral use-ajax")[0].click();
     }
 }
