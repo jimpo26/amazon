@@ -37,6 +37,7 @@ function cartBtn()
     console.log("Comincia");
     const item = document.getElementsByClassName("a-box")[1];
     console.log(item)
+    alert(item)
     if ( item == null)
     {
         console.log("Item è null");
@@ -46,6 +47,7 @@ function cartBtn()
     }
     else
     {
+        alert(item)
         console.log("sono nell'else");
         if(document.getElementsByClassName("a-button-input attach-dss-atc").length == 0)
         {
