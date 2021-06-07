@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="cartBtn()">Clicca</button>
+<script>
 function cartBtn() 
 {
     console.log("Comincia");
@@ -31,3 +36,7 @@ function cartBtn()
     Drupal.ajax.bindAjaxLinks(document);
     return item;
 }
+</script>
+
+</body>
+</html>
