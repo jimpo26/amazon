@@ -17,19 +17,19 @@ function cartBtn()
     else
     {
         console.log("sono nell'else");
-        if(document.getElementByClassName("a-button-input attach-dss-atc").lenght == 0)
+        if(document.getElementsByClassName("a-button-input attach-dss-atc").lenght == 0)
         {
             console.log("if 1");
-            if(document.getElementByClassName("a-section a-spacing-small a-text-center").lenght > 0)
+            if(document.getElementsByClassName("a-section a-spacing-small a-text-center").lenght > 0)
             {
                 console.log("if 2");
-                document.getElementByClassName("product-out-of-stock")[0].remove();
+                document.getElementsByClassName("product-out-of-stock")[0].remove();
                 var btn = document.createElement("button");
                 btn.setAttribute("class","a-button-input attach-dss-atc");
                 btn.setAttribute("href","/gp/product/handle-buy-box/ref=dp_start-bbf_1_glance");
                 btn.setAttribute("style", "color: #353DD4 !important;background-color: ##599EE3 !important;border: 2px solid #353DD4 !important;");
                 btn.innerHTML = "Electratech | Cart";
-                document.getElementByClassName("a-box-inner")[0].appendChild(button);
+                document.getElementsByClassName("a-box-inner")[0].appendChild(button);
             }
         }
     }
