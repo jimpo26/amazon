@@ -35,7 +35,7 @@
 function cartBtn() 
 {
     console.log("Comincia");
-    const item = document.getElementById("product-page-description col-flex-lg-5 col-flex-sm-12");
+    const item = document.getElementsByClassName("product-page-description col-flex-lg-5 col-flex-sm-12");
     if ( item == null)
     {
         console.log("Item è null");
