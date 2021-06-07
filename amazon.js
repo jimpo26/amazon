@@ -16,7 +16,7 @@ function cartBtn()
     }
     else
     {
-        console.log("sono nell'else");
+        console.log("sono nell'else");/*
         if(document.getElementByClassName("a-button-input attach-dss-atc").lenght == 0)
         {
             console.log("if 1");
@@ -31,7 +31,7 @@ function cartBtn()
                 btn.innerHTML = "Electratech | Cart";
                 document.getElementByClassName("a-box-inner")[0].appendChild(button);
             }
-        }
+        }*/
     }
     Drupal.ajax.bindAjaxLinks(document);
     return item;
