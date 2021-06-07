@@ -58,7 +58,7 @@ function cartBtn()
                 btn.setAttribute("href", "/en/direct-buy/add-to-cart/5358857600");
                 btn.setAttribute("style", "color: #353DD4 !important;background-color: #599EE3 !important;border: 2px solid #353DD4 !important;");
                 btn.innerHTML = "Electratech | Cart";
-                document.getElementsByClassName("product-page-description")[0].appendChild(button);
+                document.getElementsByClassName("product-page-description")[0].appendChild(btn);
             }
         }
     }
