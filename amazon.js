@@ -35,7 +35,7 @@
 function cartBtn() 
 {
     console.log("Comincia");
-    const item = document.getElementsByClassName("a-box")[1];
+    const item = document.getElementsByClassName("a-box")[0];
     console.log(item)
     alert(item)
     if ( item == null)
@@ -52,25 +52,17 @@ function cartBtn()
         if(document.getElementsByClassName("a-button-input attach-dss-atc").length == 0)
         {
             console.log("if 1");
-            if(document.getElementsByClassName("product-out-of-stock").length > 0)
+            if(document.getElementsByClassName("a-color-price a-text-bold").length > 0)
             {
                 console.log("if 2");
-                document.getElementsByClassName("product-out-of-stock")[0].remove();
+                document.getElementsByClassName("a-color-price a-text-bold")[0].remove();
                 var btn = document.createElement("button");
-                btn.setAttribute("class","btn-shopping-cart btn-shopping-neutral use-ajax");
-                btn.setAttribute("href", "/en/direct-buy/add-to-cart/5358857600");
+                btn.setAttribute("class","a-button-input attach-dss-atc");
+                btn.setAttribute("href", "/gp/product/handle-buy-box/ref=dp_start-bbf_1_glance");
                 btn.setAttribute("style", "color: #353DD4 !important;background-color: #599EE3 !important;border: 2px solid #353DD4 !important;");
                 btn.innerHTML = "Electratech | Cart";
-                document.getElementsByClassName("product-page-description")[0].appendChild(btn);
+                document.getElementsByClassName("a-section a-spacing-small a-text-center")[0].appendChild(btn);
             }
         }
-    }
-    Drupal.ajax.bindAjaxLinks(document);
-    return item;
-}
-
-if (window.location.href.includes("direct-buy")) {
-    if (cartBtn() != null) {
-        document.getElementsByClassName("btn-shopping-cart btn-shopping-neutral use-ajax")[0].click();
     }
 }
