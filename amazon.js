@@ -1,5 +1,6 @@
 function cartBtn() 
 {
+    console.log("Comincia")
     const item = document.getElementById("#ppd");
     if ( item == null)
     {
