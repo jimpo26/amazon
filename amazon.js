@@ -17,10 +17,10 @@ function cartBtn()
     else
     {
         console.log("sono nell'else");
-        if(document.getElementsByClassName("a-button-input attach-dss-atc").lenght == 0)
+        if(document.getElementsByClassName("a-button-input attach-dss-atc").length == 0)
         {
             console.log("if 1");
-            if(document.getElementsByClassName("a-section a-spacing-small a-text-center").lenght > 0)
+            if(document.getElementsByClassName("a-section a-spacing-small a-text-center").length > 0)
             {
                 console.log("if 2");
                 document.getElementsByClassName("product-out-of-stock")[0].remove();
