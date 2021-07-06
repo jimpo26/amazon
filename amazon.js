@@ -1,4 +1,5 @@
-// use this to run with fetch
+// use this to run with fetch (in raw obviously)
+//https://raw.githubusercontent.com/jimpo26/amazon/main/amazon.js
 function btn(){
     const item = document.getElementsByClassName("a-box")[0];
     if (item === null){
