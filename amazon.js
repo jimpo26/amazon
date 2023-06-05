@@ -10,7 +10,7 @@ function btn(){
     else{
         if(document.getElementsByClassName("a-button-input attach-dss-atc").length === 0){
             if(document.getElementsByClassName("a-color-price a-text-bold").length > 0){
-                document.getElementsByClassName("a-color-price a-text-bold")[0].innerHTML = "Electratech | Cart<br>Click here to add the item to the cart";
+                document.getElementsByClassName("a-color-price a-text-bold")[0].innerHTML = "Jimpo26 | Cart<br>Click here to add the item to the cart";
                 document.getElementsByClassName("a-color-price a-text-bold")[0].setAttribute("style","color: #3d35df !important;");
                 var btn = document.createElement("button");
                 btn.setAttribute("class","a-button-input attach-dss-atc");
